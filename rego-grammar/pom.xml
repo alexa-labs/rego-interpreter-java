@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <parent>
+    <groupId>com.amazon.alexa.rego</groupId>
+    <artifactId>rego-java</artifactId>
+    <version>1.0.0-beta.1</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.amazon.alexa.rego</groupId>
+  <artifactId>rego-grammar</artifactId>
+  <version>1.0.0-beta.1</version>
+
+  <name>rego-grammar</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <antlr4.visitor>true</antlr4.visitor>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4-runtime</artifactId>
+      <version>4.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4-maven-plugin</artifactId>
+      <version>4.5</version>
+      <type>maven-plugin</type>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.antlr</groupId>
+        <artifactId>antlr4-maven-plugin</artifactId>
+        <version>4.5</version>
+        <executions>
+          <execution>
+            <id>antlr</id>
+            <goals>
+	      <goal>antlr4</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

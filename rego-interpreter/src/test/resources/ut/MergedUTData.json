@@ -1,0 +1,98 @@
+{
+    "doubleTrouble": 98,
+    "rule_body_loops_b": {
+        "body_index": 5
+    }, "array": [
+        "a1",
+        "a2"
+    ], "files": [
+        "file2",
+        "file1",
+        "file3",
+        "file4",
+        "file5"
+    ], "multi_files": [
+        {
+            "file1": ["A", "B", "C"]
+        },
+        {
+            "file2": ["D", "E", "F"]
+        },
+        {
+            "file3": ["G", "H", "I"]
+        }
+    ], "file_sizes": [
+        {"name": "f1", "size": 100},
+        {"name": "f2", "size": 200},
+        {"name": "f3", "size": 300},
+        {"name": "f4", "size": 400},
+        {"name": "f5", "size": 500},
+        {"name": "f6", "size": 600},
+        {"name": "f7", "size": 700}
+    ],
+    "false": false,
+    "true": true,
+    "key_value_pair": {
+        "found": "something"
+    }, "some_array": [
+        "a1",
+        "a2"
+    ], "some_array2": [
+        "a3",
+        "a2",
+        "a4"
+    ],
+    "sitesSource": "https://www.openpolicyagent.org/docs/latest/policy-language/#example-data",
+    "sites": [
+        {
+            "region": "east",
+            "name": "prod",
+            "servers": [
+                {
+                    "name": "web-0",
+                    "hostname": "hydrogen"
+                },
+                {
+                    "name": "web-1",
+                    "hostname": "helium"
+                },
+                {
+                    "name": "db-0",
+                    "hostname": "lithium"
+                }
+            ]
+        },
+        {
+            "region": "west",
+            "name": "smoke",
+            "servers": [
+                {
+                    "name": "web-1000",
+                    "hostname": "beryllium"
+                },
+                {
+                    "name": "web-1001",
+                    "hostname": "boron"
+                },
+                {
+                    "name": "db-1000",
+                    "hostname": "carbon"
+                }
+            ]
+        },
+        {
+            "region": "west",
+            "name": "dev",
+            "servers": [
+                {
+                    "name": "web-dev",
+                    "hostname": "nitrogen"
+                },
+                {
+                    "name": "db-dev",
+                    "hostname": "oxygen"
+                }
+            ]
+        }
+    ]
+}

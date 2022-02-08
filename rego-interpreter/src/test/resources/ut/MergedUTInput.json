@@ -1,0 +1,7 @@
+{
+    "data": {
+        "hello": "world"
+    }, "event": {
+        "metadata": "aGVsbG8="
+    }, "rule_body_loops_c": "body_index"
+}
